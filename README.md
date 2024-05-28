@@ -1,0 +1,26 @@
+## Setup Dashboard Project
+
+- First clone project on your device
+    - copy .env.example and paste .env file
+    - enter in env file to connect db.
+    - Run ``` composer update```.
+    - then Run ``` composer install```.
+    - After Run ``` php artisan key:generate```.
+    - Run ``` php artisan migrate:fresh --seed ``` .
+    - And go to  ```http://localhost/Delivery/login```
+- the login information as admin or driver or logistic of anything of exists users
+    - login as admin
+        - username `admin@gmail.com`
+        - password `password`
+    - login as driver
+        - username `driver@gmail.com`
+        - password `password`
+    - login as logistic
+        - username `logistic@gmail.com`
+        - password `password`
+    - login as Warehouses
+        - username `warehouse@gmail.com`
+        - password `password`
+    - login as Balance
+        - username `balance@gmail.com`
+        - password `password`
