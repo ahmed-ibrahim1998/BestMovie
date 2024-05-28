@@ -28,3 +28,8 @@
     - login as admin
         - username `user@gmail.com`
         - password `password`
+      
+### the link of documentation for all api
+
+- ```https://documenter.getpostman.com/view/14947856/2sA3QtcqsT```
+
